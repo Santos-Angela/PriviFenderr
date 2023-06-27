@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-image: url("https://scontent.fcrk1-4.fna.fbcdn.net/v/t39.30808-6/319050107_3447725105495625_5395347342331513154_n.jpg?_nc_cat=111&cb=99be929b-59f725be&ccb=1-7&_nc_sid=174925&_nc_eui2=AeGBJtS4SRL8qthwS6sJyM72n_kXNblXbjyf-Rc1uVduPKkwMsJ_Wf5ZkfzvwafOBp8XxvVdYvVGnxfDrqKALZrL&_nc_ohc=BxBadjhxc3oAX_f4pCR&_nc_ht=scontent.fcrk1-4.fna&oh=00_AfBULnf4OyC-f1PEoVhthn2zlo6WXjEM6FijEAjtwtudbw&oe=649C91F7");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #navbar {
+    background-color: rgba(255, 251, 251, 0.027);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  #navbar li {
+    margin-right: 20px;
+  }
+  
+  #navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  #welcome-section .container {
+    text-align: center;
+    color:white;
+    padding: 20px;
+  }
+  
+  #welcome-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #projects {
+    padding: 40px 0;
+    color: white;
+    
+  }
+  
+  #projects a#profile-link {
+    display: none;
+  }
+  
+  .project-tile {
+    background-color:transparent;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    #projects a#profile-link {
+      display: inline-block;
+    }
+  }
